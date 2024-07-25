@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+body{
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+}
+
+h3{
+  color: #042940 !important;
+  font-family: "Cinzel Decorative", serif!important;
+  font-weight: 700!important;
+  font-style: normal!important;
+  white-space: nowrap;
+}

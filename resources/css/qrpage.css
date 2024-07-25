@@ -1,0 +1,98 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+}
+
+h1{
+  color: #042940 !important;
+  font-family: "Cinzel Decorative", serif!important;
+  font-weight: 700!important;
+  font-style: normal!important;
+  white-space: nowrap;
+}
+
+.floating-btn{
+  width: 50px;
+  height: 50px;
+  background: #011826;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50%;
+  z-index: 1;
+}
+p{
+  color: #042940 !important;
+  font-family: "Quicksand", serif!important;
+  font-weight: 700!important;
+  font-style: normal!important;
+  white-space: nowrap;
+}
+.floating-btn:hover{
+  background: rgb(189, 218, 255);
+  cursor: pointer;
+  color:  #011826;
+  border: 1px solid  #011826;
+ 
+}
+.bx-plus{
+  font-size: 30px;
+  margin-top: 20%;
+}
+
+select{
+  width: 50px !important;
+}
+#confirmModal{
+  padding-top: 10%;
+}
+#background{
+  width: 50%;
+  margin: auto;
+}
+#done{
+  background-color: darkblue;
+}
+.pin-input-section {
+  font-weight: bold;
+}
+.input-wrapper {
+  position: relative;
+}
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+@media (max-width: 1536px) {
+  .file-name {
+    font-size: 1.2rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+.dts{
+  font-size: 10px;
+  }
+}
+@media (max-width: 425px) {
+  #white {
+    width: 500px;
+  }
+}
